@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "notebooklm-memory": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "<absolute path to this repository>",
+        "notebooklm-memory-mcp"
+      ],
+      "env": {
+        "NOTEBOOKLM_MCP_ALLOWED_ROOTS": "<absolute path to this repository>/examples/corpus"
+      }
+    }
+  }
+}
